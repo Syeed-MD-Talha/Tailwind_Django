@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "off",
+    "axe/name-role-value": "off",
+    "disown-opener": "off",
+    "no-inline-styles": "off",
+    "meta-viewport": "off",
+    "meta-charset-utf-8": "off",
+    "highest-available-document-mode": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ]
+  }
+}
